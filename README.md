@@ -18,7 +18,11 @@
 
 ## Встановлення та запуск
 
-1. **Клонуйте репозиторій на свій комп'ютер:**
-```bash
-   git clone [https://github.com/shymanskyimarian-ux/air-raid-prediction.git](https://github.com/shymanskyimarian-ux/air-raid-prediction.git)
-   cd air-raid-prediction
+Оскільки всі необхідні файли (включно з базою даних) вже є в репозиторії, ви можете протестувати код:
+
+### У хмарі
+Найпростіший спосіб запустити код прямо в браузері через GitHub Codespaces:
+1. На сторінці репозиторію натисніть зелену кнопку **Code** ➔ вкладка **Codespaces** ➔ **Create codespace on main**.
+2. Дочекайтеся завантаження віртуального середовища. У терміналі (внизу екрана) введіть:
+   pip install -r requirements.txt
+   python main.py
